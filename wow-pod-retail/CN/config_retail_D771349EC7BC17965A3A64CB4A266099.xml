@@ -1,0 +1,28 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+	<server id="chinacdn1" url="http://client01.pdl.wow.battlenet.com.cn/wow-pod-retail/CN/15890.direct/"/>
+	<server id="chinacdn3" url="http://client03.pdl.wow.battlenet.com.cn/wow-pod-retail/CN/15890.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="localeset" value="zhCN,enCN"/>
+        <setting name="NumActiveWebSeeds" value="9"/>
+        <setting name="NumTestingWebSeeds" value="3"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="Retail" type="zhCN" url="priorities/wow-16016-35A849E5C9B637CC6D869FA5E752E8C6.pfil"/>
+        <priorityfile product="Retail" type="enCN" url="priorities/wow-16016-35A849E5C9B637CC6D869FA5E752E8C6.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>

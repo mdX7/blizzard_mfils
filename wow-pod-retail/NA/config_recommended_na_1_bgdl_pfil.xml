@@ -1,0 +1,29 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod-retail/NA/12911.streaming/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+		<setting name="enablebgdownload" value="True"/>
+     </settings>
+	 <priorityfiles>
+		<priorityfile product="retail" type="esMX" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="enUS" url="priorities/uber-NA.pfil"/>
+		<priorityfile product="retail" type="enGB" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="esES" url="priorities/uber-NA.pfil"/>
+		<priorityfile product="retail" type="frFR" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="deDE" url="priorities/uber-NA.pfil"/>
+		<priorityfile product="retail" type="ruRU" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="koKR" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="zhTW" url="priorities/uber-NA.pfil"/>
+        <priorityfile product="retail" type="enTW" url="priorities/uber-NA.pfil"/>
+	 </priorityfiles>
+    </version>
+ </versioninfo>
+</config>

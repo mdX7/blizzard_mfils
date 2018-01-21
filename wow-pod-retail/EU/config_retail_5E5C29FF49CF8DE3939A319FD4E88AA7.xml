@@ -1,0 +1,39 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+	<server id="akamai" url="http://dist.blizzard.com.edgesuite.net/wow-pod-retail/EU/15890.direct/"/>
+		<server id="limelight" url="http://llnw.blizzard.com/wow-pod-retail/EU/15890.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="localeset" value="enGB,esES,deDE,frFR,ruRU,ptPT,itIT"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="Retail" type="enUS" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="esMX" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="ptBR" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="enGB" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="esES" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="frFR" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="deDE" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="ruRU" url="priorities/wow-16016-C8154A3AD0F62848CC86CC017DBFADD3.pfil"/>
+        <priorityfile product="Retail" type="ptPT" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="itIT" url="priorities/wow-16016-3435E22FBB6F8C601EA2BE6276385F9E.pfil"/>
+        <priorityfile product="Retail" type="koKR" url="priorities/wow-16016-7989970CB71E1021F2D98382CAC9EB6A.pfil"/>
+        <priorityfile product="Retail" type="zhTW" url="priorities/wow-16016-FA8CBE885F9234BD5816E377C6C83EB8.pfil"/>
+        <priorityfile product="Retail" type="enTW" url="priorities/wow-16016-FA8CBE885F9234BD5816E377C6C83EB8.pfil"/>
+        <priorityfile product="Retail" type="zhCN" url="priorities/wow-16016-EB0F1263567CB09643F3DBA824C4EE1B.pfil"/>
+        <priorityfile product="Retail" type="enCN" url="priorities/wow-16016-EB0F1263567CB09643F3DBA824C4EE1B.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>

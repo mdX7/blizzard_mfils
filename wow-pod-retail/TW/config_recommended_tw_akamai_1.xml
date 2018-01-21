@@ -1,0 +1,16 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="gamefirst" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod-retail/TW/12911.streaming/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+     </settings>
+    </version>
+ </versioninfo>
+</config>

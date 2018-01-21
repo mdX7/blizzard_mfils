@@ -1,0 +1,49 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="limelight" url="http://blizzard.vo.llnwd.net/o16/content/wow-pod-retail/EU/15050.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="baseline-Win" value="wow-15050-15050-Win-rebase.MPQ" />
+        <setting name="baseline-OSX" value="wow-15050-15050-OSX-rebase.MPQ" />
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="localeset" value="enGB,esES,deDE,frFR,ruRU,ptPT"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="retail" type="esMX" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="enUS" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="enGB" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="esES" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="frFR" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="deDE" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="ruRU" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="koKR" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="zhTW" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="enTW" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="ptBR" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="retail" type="ptPT" url="priorities/wow-15050-A3B61D88E9586DD7B2D8D8B4B98C3A1C.pfil"/>
+        <priorityfile product="trial" type="enUS" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="esMX" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="enGB" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="esES" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="frFR" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="deDE" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="ruRU" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="koKR" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="zhTW" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="enTW" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="ptBR" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+        <priorityfile product="trial" type="ptPT" url="priorities/wow-15050-Trial-77B1EBCBAEA676F1004B15244E349A7A.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>

@@ -1,0 +1,4 @@
+version=2
+server=akamai
+	location=http://ak.worldofwarcraft.com.edgesuite.net/wow-pod-retail/EU/15050.direct/
+manifest_partial=wow-15354-E998F3B63FB3ABEBBAD1AA7212209086.mfil
