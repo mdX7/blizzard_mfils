@@ -1,0 +1,17 @@
+version=2
+server=server1
+	location=http://dist.blizzard.com.edgesuite.net/bna/bootstrapper/
+serverpath=setup2627
+	path=Setup2627/
+file=Setup/battle.net/SetupWin.mpq
+	name=SetupWin.mpq
+	size=1357613
+	fileversion=2627
+	flags=0
+	path=setup2627
+file=Setup/battle.net/SetupOSX.mpq
+	name=SetupOSX.mpq
+	size=1851899
+	fileversion=2627
+	flags=0
+	path=setup2627
