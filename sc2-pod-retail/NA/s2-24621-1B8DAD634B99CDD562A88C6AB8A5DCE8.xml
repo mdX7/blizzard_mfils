@@ -1,0 +1,19 @@
+<config>
+  <versioninfo type="pod">
+    <version product="S2">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/sc2-pod-retail/NA/24621.direct/"/>
+        <server id="limelight" url="http://llnw.blizzard.com/sc2-pod-retail/NA/24621.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="0" red="29" yellow="29" />
+        <threshold speed="128000" red="15" yellow="27" />
+        <threshold speed="512000" red="7" yellow="19" />
+        <threshold speed="1000001" red="7" yellow="15" />
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+     </settings>
+    </version>
+ </versioninfo>
+</config>

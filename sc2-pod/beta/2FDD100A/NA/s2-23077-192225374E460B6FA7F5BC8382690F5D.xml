@@ -1,0 +1,19 @@
+<config>
+  <versioninfo type="pod">
+    <version product="S2B">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/sc2-pod/beta/2FDD100A/NA/23077.direct/"/>
+        <server id="limelight" url="http://llnw.blizzard.com/sc2-pod/beta/2FDD100A/NA/23077.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="128000" red="15" yellow="31" />
+        <threshold speed="128001" red="9" yellow="23" />
+      </thresholds>
+	  <settings>
+	   <setting name="json_blob_overrides"
+                   value="{&quot;expansion_level&quot; : 2}"/>
+	
+	  </settings>
+    </version>
+ </versioninfo>
+</config>

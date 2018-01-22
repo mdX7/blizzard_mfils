@@ -1,0 +1,14 @@
+<config>
+  <versioninfo type="pod">
+    <version product="S2B">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/sc2-pod/beta/2FDD100A/NA/21571.direct/"/>
+		<server id="limelight" url="http://blizzard.vo.llnwd.net/o16/content/sc2-pod/beta/2FDD100A/NA/21571.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="128000" red="15" yellow="31" />
+        <threshold speed="128001" red="9" yellow="23" />
+      </thresholds>
+    </version>
+ </versioninfo>
+</config>

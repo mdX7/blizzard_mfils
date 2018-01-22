@@ -1,0 +1,14 @@
+<config>
+  <versioninfo type="pod">
+    <version product="D3B">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/d3-pod/beta/00FC2DE9/NA/18962.direct/"/>
+        <server id="limelight" url="http://llnw.blizzard.com/d3-pod/beta/00FC2DE9/NA/18962.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="0" red="1" yellow="234"/>
+      </thresholds>
+
+    </version>
+ </versioninfo>
+</config>

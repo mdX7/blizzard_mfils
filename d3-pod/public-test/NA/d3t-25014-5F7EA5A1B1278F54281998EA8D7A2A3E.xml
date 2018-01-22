@@ -1,0 +1,28 @@
+<config>
+  <versioninfo type="pod">
+    <version product="D3T">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/d3-pod/public-test/NA/23119.direct/"/>
+       <server id="limelight" url="http://llnw.blizzard.com/d3-pod/public-test/NA/23119.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="0" red="1" yellow="208"/>
+      </thresholds>
+      <priorityfiles>
+        <priorityfile product="Ptr" type="enUS" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="esMX" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="ptBR" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="enGB" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="frFR" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="deDE" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="esES" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="itIT" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="ruRU" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="koKR" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="zhTW" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+        <priorityfile product="Ptr" type="plPL" url="d3t-25014-BF6109933B17E690E644C70075D380E4.pfil"/>
+      </priorityfiles>
+
+    </version>
+ </versioninfo>
+</config>

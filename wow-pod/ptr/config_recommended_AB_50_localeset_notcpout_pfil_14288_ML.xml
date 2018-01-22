@@ -1,0 +1,61 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/ptr/streaming/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+		<setting name="enablebgdownload" value="True"/>
+		<setting name="launcherb" value="0000"/>
+		<setting name="notcpout" value="1"/>
+		<setting name="enabledynamiclocale" value="True"/>
+      </settings>
+	 <priorityfiles>
+        <priorityfile product="ptr" type="enUS" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="esMX" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="enGB" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="esES" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="frFR" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="deDE" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="ruRU" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="koKR" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="zhTW" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="enTW" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+	 </priorityfiles>
+    </version>
+    <version product="WoWT">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/ptr/streaming/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+	    <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+		<setting name="enablebgdownload" value="True"/>
+		<setting name="launcherb" value="0000"/>
+		<setting name="notcpout" value="1"/>
+		<setting name="enabledynamiclocale" value="True"/>
+		<setting name="localeset" value="enUS,esMX,deDE,enGB,esES,frFR,koKR,ruRU,zhTW,enTW"/>
+      </settings>
+	 <priorityfiles>
+        <priorityfile product="ptr" type="enUS" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="esMX" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="enGB" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="esES" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="frFR" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="deDE" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+		<priorityfile product="ptr" type="ruRU" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="koKR" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="zhTW" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+        <priorityfile product="ptr" type="enTW" url="priorities/wowt-14288-63F198CCB0CF9CD78AAD1D20C9C6D4BD.pfil"/>
+	 </priorityfiles>
+     </version>
+  </versioninfo>
+</config>

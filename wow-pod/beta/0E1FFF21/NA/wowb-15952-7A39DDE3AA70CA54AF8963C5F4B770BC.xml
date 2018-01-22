@@ -1,0 +1,40 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoWB">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/wow-pod/beta/0E1FFF21/NA/15827.direct/"/>
+		<server id="limelight" url="http://llnw.blizzard.com/wow-pod/beta/0E1FFF21/NA/15827.direct/"/>        
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="json_blob_overrides"
+                 value="{&quot;supports_multibox&quot; : true, &quot;archive_list&quot;:null,&quot;supported_locales&quot; : [&quot;enUS&quot;,&quot;esMX&quot;,&quot;ptBR&quot;,&quot;enGB&quot;,&quot;frFR&quot;,&quot;deDE&quot;,&quot;esES&quot;,&quot;ptPT&quot;,&quot;itIT&quot;,&quot;ruRU&quot;,&quot;koKR&quot;,&quot;zhTW&quot;,&quot;enTW&quot;,&quot;zhCN&quot;,&quot;enCN&quot;], &quot;display_locales&quot;:[&quot;enUS&quot;,&quot;esMX&quot;,&quot;ptBR&quot;,&quot;enGB&quot;,&quot;frFR&quot;,&quot;deDE&quot;,&quot;esES&quot;,&quot;ptPT&quot;,&quot;itIT&quot;,&quot;ruRU&quot;,&quot;koKR&quot;,&quot;zhTW&quot;,&quot;enTW&quot;,&quot;zhCN&quot;,&quot;enCN&quot;]}"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="Beta" type="enUS" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="esMX" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="ptBR" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="enGB" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="esES" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="frFR" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="deDE" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="ruRU" url="priorities/wowb-15882-10B3B92EAB964A7BA5EAAB4E9F4EC161.pfil"/>
+        <priorityfile product="Beta" type="ptPT" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="itIT" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="koKR" url="priorities/wowb-15882-0EF39F5E15092272788FCFAA2F3D2637.pfil"/>
+        <priorityfile product="Beta" type="zhTW" url="priorities/wowb-15882-D4CB2AC34E35DE21C2B9944D20F36A42.pfil"/>
+        <priorityfile product="Beta" type="enTW" url="priorities/wowb-15882-49590F93C6BD815D0F95AC6F29C3B212.pfil"/>
+        <priorityfile product="Beta" type="zhCN" url="priorities/wowb-15882-3BA224D635006AFAF0F136751A165F39.pfil"/>
+        <priorityfile product="Beta" type="enCN" url="priorities/wowb-15882-3BA224D635006AFAF0F136751A165F39.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>

@@ -1,0 +1,41 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+     </settings>
+    </version>
+    <version product="WoWT">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+      <settings>
+         <setting name="patchapplicationstage" value="Recommended"/>
+      </settings>
+    </version>
+    <version product="WoWB">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="5" yellow="5" />
+        <threshold speed="1000001" red="1" yellow="5" />
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+      </settings>
+    </version>
+  </versioninfo>
+  <repairconfig file="http://blizzard.vo.llnwd.net:80/o16/content/repair/wow_beta/repairconfig_na_FB33D0B0924F775D84B37C135B474D37.xml"/>
+</config>

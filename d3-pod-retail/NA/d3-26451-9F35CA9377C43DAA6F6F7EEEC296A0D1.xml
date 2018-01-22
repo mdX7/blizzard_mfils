@@ -1,0 +1,29 @@
+<config>
+  <versioninfo type="pod">
+    <version product="D3">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/d3-pod-retail/NA/20813.direct/"/>
+        <server id="limelight" url="http://llnw.blizzard.com/d3-pod-retail/NA/20813.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="0" red="1" yellow="208"/>
+      </thresholds>
+      <priorityfiles>
+        <priorityfile product="Retail" type="enUS" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="esMX" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="ptBR" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="enSG" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="enGB" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="deDE" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="esES" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="frFR" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="itIT" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="plPL" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="ruRU" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="koKR" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+        <priorityfile product="Retail" type="zhTW" url="d3-26451-A558DF6070A6AAA5F2D28BB2912689C5.pfil"/>
+      </priorityfiles>
+
+    </version>
+ </versioninfo>
+</config>

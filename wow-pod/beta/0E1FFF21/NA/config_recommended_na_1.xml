@@ -1,0 +1,38 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoWB">
+      <servers>
+	<server id="streaming" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/beta/0E1FFF21/NA/15464.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="localeset" value="enUS,esMX,ptBR"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="Beta" type="enUS" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="esMX" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="ptBR" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="enGB" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="esES" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="frFR" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="deDE" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="ruRU" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="ptPT" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="itIT" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="koKR" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="zhTW" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="enTW" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="zhCN" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+        <priorityfile product="Beta" type="enCN" url="priorities/wowb-15464-Beta-E8AA7CF9CC07BB9F3440D01954BBA7C9.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>

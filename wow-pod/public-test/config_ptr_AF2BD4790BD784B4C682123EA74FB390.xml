@@ -1,0 +1,41 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoWT">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/wow-pod/public-test/15890.direct/"/>
+		<server id="limelight" url="http://llnw.blizzard.com/wow-pod/public-test/15890.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="125000" red="5" yellow="5"/>
+        <threshold speed="125001" red="1" yellow="5"/>
+      </thresholds>
+      <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+        <setting name="enablebgdownload" value="True"/>
+        <setting name="enabledynamiclocale" value="True"/>
+        <setting name="localeset" value="enUS,esMX,ptBR,deDE,enGB,esES,frFR,itIT,ptPT,ruRU,koKR,zhTW,enTW,zhCN,enCN"/>
+		<setting name="json_blob_overrides"
+                   value="{&quot;supported_locales&quot; : [&quot;enUS&quot;,&quot;esMX&quot;,&quot;ptBR&quot;,&quot;enGB&quot;,&quot;frFR&quot;,&quot;deDE&quot;,&quot;esES&quot;,&quot;ptPT&quot;,&quot;itIT&quot;,&quot;ruRU&quot;,&quot;koKR&quot;,&quot;zhTW&quot;,&quot;enTW&quot;,&quot;zhCN&quot;,&quot;enCN&quot;], &quot;display_locales&quot;:[&quot;enUS&quot;,&quot;esMX&quot;,&quot;ptBR&quot;,&quot;enGB&quot;,&quot;frFR&quot;,&quot;deDE&quot;,&quot;esES&quot;,&quot;ptPT&quot;,&quot;itIT&quot;,&quot;ruRU&quot;,&quot;koKR&quot;,&quot;zhTW&quot;,&quot;enTW&quot;,&quot;zhCN&quot;,&quot;enCN&quot;]}"/>
+        <setting name="PortRangeMin" value="6881"/>
+        <setting name="PortRangeMax" value="6999"/>
+      </settings>
+      <priorityfiles>
+        <priorityfile product="Ptr" type="enUS" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="esMX" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="ptBR" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="enGB" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="esES" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="frFR" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="deDE" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="ruRU" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="ptPT" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="itIT" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="koKR" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="zhTW" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="enTW" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="zhCN" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+        <priorityfile product="Ptr" type="enCN" url="priorities/wowt-17513-232D46671C96066562219143F6177A4A.pfil"/>
+      </priorityfiles>
+    </version>
+  </versioninfo>
+</config>
