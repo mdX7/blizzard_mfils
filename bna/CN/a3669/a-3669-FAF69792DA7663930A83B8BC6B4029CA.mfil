@@ -1,0 +1,17 @@
+version=2
+server=server1
+	location=http://client01.pdl.wow.battlenet.com.cn/bna/CN/a3669/
+serverpath=
+	path=/
+file=SetupWin.mpq
+	name=SetupWin.mpq
+	size=4520032
+	fileversion=3669
+	flags=0
+	path=
+file=SetupOSX.mpq
+	name=SetupOSX.mpq
+	size=5145543
+	fileversion=3669
+	flags=0
+	path=

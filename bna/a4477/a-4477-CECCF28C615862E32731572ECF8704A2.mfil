@@ -1,0 +1,17 @@
+version=2
+server=server1
+	location=http://dist.blizzard.com.edgesuite.net/bna/a4477/
+serverpath=
+	path=/
+file=SetupWin.mpq
+	name=SetupWin.mpq
+	size=3273825
+	fileversion=4477
+	flags=0
+	path=
+file=SetupOSX.mpq
+	name=SetupOSX.mpq
+	size=4141849
+	fileversion=4477
+	flags=0
+	path=
