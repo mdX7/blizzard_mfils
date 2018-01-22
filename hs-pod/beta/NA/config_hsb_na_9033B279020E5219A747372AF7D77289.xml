@@ -1,0 +1,15 @@
+<config>
+  <versioninfo type="pod">
+    <version product="HSB">
+      <servers>
+        <server id="akamai" url="http://dist.blizzard.com.edgesuite.net/hs-pod/beta/NA/4944.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="0" red="8" yellow="100"/>
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Required"/>
+     </settings>
+    </version>
+ </versioninfo>
+</config>
