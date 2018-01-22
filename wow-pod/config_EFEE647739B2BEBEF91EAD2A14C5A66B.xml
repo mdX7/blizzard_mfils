@@ -1,0 +1,13 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/wow-pod/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="1000000" red="6" yellow="7"/>
+        <threshold speed="3000000" red="1" yellow="5"/>
+      </thresholds>
+    </version>
+  </versioninfo>
+</config>

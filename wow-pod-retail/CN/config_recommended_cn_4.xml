@@ -1,0 +1,18 @@
+<config>
+  <versioninfo type="pod">
+    <version product="WoW">
+      <servers>
+        <server id="chinacdn1" url="http://client01.pdl.wow.battlenet.com.cn/wow-pod-retail/CN/14250.streaming/"/>
+        <server id="chinacdn2" url="http://client02.pdl.wow.battlenet.com.cn/wow-pod-retail/CN/14250.streaming/"/>
+        <server id="chinacdn3" url="http://client03.pdl.wow.battlenet.com.cn/wow-pod-retail/CN/14250.streaming/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="5000000" red="5" yellow="5"/>
+        <threshold speed="5000001" red="1" yellow="5"/>
+      </thresholds>
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+     </settings>
+    </version>
+ </versioninfo>
+</config>
