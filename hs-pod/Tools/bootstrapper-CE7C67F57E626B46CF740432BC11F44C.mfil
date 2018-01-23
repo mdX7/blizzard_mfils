@@ -1,0 +1,17 @@
+version=2
+server=server1
+	location=http://dist.blizzard.com.edgesuite.net/hs-pod/Tools/
+serverpath=setup2368
+	path=Setup2368/
+file=Setup/hs_beta/SetupWin.mpq
+	name=Setup/All/SetupWin.mpq
+	size=1455809
+	fileversion=2368
+	flags=0
+	path=setup2368
+file=Setup/hs_beta/SetupOSX.mpq
+	name=Setup/All/SetupOSX.mpq
+	size=2067882
+	fileversion=2368
+	flags=0
+	path=setup2368

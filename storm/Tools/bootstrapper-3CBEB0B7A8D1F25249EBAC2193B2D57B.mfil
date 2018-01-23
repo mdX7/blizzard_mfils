@@ -1,0 +1,17 @@
+version=2
+server=server1
+	location=http://dist.blizzard.com.edgesuite.net/storm/Tools/
+serverpath=setup2263
+	path=Setup2263/
+file=Setup/storm/SetupWin.mpq
+	name=Setup/All/SetupWin.mpq
+	size=1454463
+	fileversion=2263
+	flags=0
+	path=setup2263
+file=Setup/storm/SetupOSX.mpq
+	name=Setup/All/SetupOSX.mpq
+	size=2780058
+	fileversion=2263
+	flags=0
+	path=setup2263

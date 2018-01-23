@@ -1,0 +1,21 @@
+<config>
+  <versioninfo type="pod">
+    <version product="D3">
+      <servers>
+        <server id="akamai" url="http://ak.worldofwarcraft.com.edgesuite.net/d3-pod/20FB5BE9/NA/7162.direct/"/>
+      </servers>
+      <thresholds>
+        <threshold speed="307200" red="11" yellow="11" />
+        <threshold speed="716800" red="3" yellow="11" />
+        <threshold speed="1280000" red="2" yellow="11" />
+        <threshold speed="3379200" red="1" yellow="11" />
+        <threshold speed="3379201" red="0" yellow="11" />
+      </thresholds>
+
+
+     <settings>
+        <setting name="patchapplicationstage" value="Recommended"/>
+     </settings>
+    </version>
+ </versioninfo>
+</config>
