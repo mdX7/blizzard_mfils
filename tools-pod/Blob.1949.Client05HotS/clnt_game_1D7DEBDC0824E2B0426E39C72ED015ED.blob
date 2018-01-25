@@ -1,0 +1,31 @@
+{
+	"all" : {
+		"config" : {
+			"supports_offline" : true,
+			"supports_multibox" : true,
+			"switcher" : true,
+			"product" : "Clnt",
+			"update_method" : "client update",
+			"side_by_side_patching": true,
+			"universal_patch_id" : 0,
+            "uid_override" : "battle.net",
+            "opaque_product_specific" : {
+				"ui" : "hots"
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"binary_version_path" : "Blizzard Launcher.exe",
+				"binary_launch_path" : "Blizzard Launcher.exe"
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Blizzard Launcher.app",
+				"binary_launch_path" : "Blizzard Launcher.app"
+			}
+		}
+	}
+}

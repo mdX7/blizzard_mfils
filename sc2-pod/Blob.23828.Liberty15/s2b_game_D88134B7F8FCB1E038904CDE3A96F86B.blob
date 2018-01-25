@@ -1,0 +1,142 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "S2B",
+			"install_progress_percent" : 10.0,
+			"universal_patch_id" : -1.0,
+			"updater_product" : "s2_patch",
+			"expansion_level" : 2.0,
+			"ptr" : false,
+			"beta" : true,
+			"switcher" : true,
+			"update_method" : "patch on demand",
+			"supports_multibox" : false,
+			"supports_offline" : true,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : false,
+			"data_dir" : "Updates/",
+			"update_regex" : "(?P<prefix>s2-update-(?P<dataset>\\w+))-(?P<build>\\d+)\\.mpq$",
+			"update_identifier" : "s2-update-",
+			"torrent_file_path" : "StarCraft II.tfil",
+			"manifest_file_path" : "StarCraft II.mfil",
+			"priority_file_path" : "StarCraft II.pfil",
+			"priority_file_layout" : "Beta",
+			"supported_locales" : ["enUS","frFR","deDE","koKR"],
+			"fullpath_hash" : true,
+			"opaque_product_specific" : {}
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [35000000000.0,0.0,0.0],
+				"download_progress_info" : [0.0,0.0,0.0],
+				"install_progress_speed" : 15000000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [50000000.0,0.0,0.0],
+				"download_progress_info" : [300000000.0,7000000000.0,3000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [50000000.0,0.0,0.0],
+				"download_progress_info" : [300000000.0,7000000000.0,3000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"binary_version_path" : "Support/SC2Switcher.exe",
+				"binary_launch_path" : "Support/SC2Switcher.exe",
+				"shortcut_target_path" : "StarCraft II Beta.exe",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%commonstartmenu%",
+							"relative_path" : "StarCraft II Beta"
+						}
+					},{
+						"delete_file" : {
+							"root" : "%commondesktop%",
+							"relative_path" : "StarCraft II Beta.lnk"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Blizzard Entertainment",
+							"subkey" : "StarCraft II Beta"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Support/SC2Switcher.app",
+				"binary_launch_path" : "Support/SC2Switcher.app",
+				"shortcut_target_path" : "StarCraft II Beta.app",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		}
+	},
+	"s2_beta_enus" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","deDE","frFR","koKR"],
+			"launch_arguments" : ["-launch","-uid","s2_beta_enus"]
+		}
+	},
+	"enus" : {
+		"config" : {
+			"display_locales" : ["enUS","deDE","frFR","koKR"]
+		}
+	},
+	"s2_beta_dede" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","deDE","frFR","koKR"],
+			"launch_arguments" : ["-launch","-uid","s2_beta_dede"]
+		}
+	},
+	"dede" : {
+		"config" : {
+			"display_locales" : ["enUS","deDE","frFR","koKR"]
+		}
+	},
+	"s2_beta_frfr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","deDE","frFR","koKR"],
+			"launch_arguments" : ["-launch","-uid","s2_beta_frfr"]
+		}
+	},
+	"frfr" : {
+		"config" : {
+			"display_locales" : ["enUS","deDE","frFR","koKR"]
+		}
+	},
+	"s2_beta_kokr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","deDE","frFR","koKR"],
+			"launch_arguments" : ["-launch","-uid","s2_beta_kokr"]
+		}
+	},
+	"kokr" : {
+		"config" : {
+			"display_locales" : ["enUS","deDE","frFR","koKR"]
+		}
+	}
+}

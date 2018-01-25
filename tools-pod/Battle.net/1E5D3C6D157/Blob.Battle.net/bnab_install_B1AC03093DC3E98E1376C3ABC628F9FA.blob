@@ -1,0 +1,214 @@
+{
+	"all" : {
+		"config" : {
+			"form" : {
+				"eula" : {
+					"eula" : false
+				}
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Program Files",
+						"dirname" : "Battle.net",
+						"required_space" : 200000000.0
+					}
+				},
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_enus.10/win/bnet_enus-win-7D8FAFE0CAE86100A3CEF377349F9AF0.torrent"
+			}
+		},
+		"mac" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Applications",
+						"dirname" : "Battle.net.app/Contents",
+						"required_space" : 300000000.0
+					}
+				},
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_enus.10/mac/bnet_enus-mac-632CC59BE99DC8510610C8C3ED8D6052.torrent"
+			}
+		}
+	},
+	"media": {
+		"torrent": {
+			"config": {
+				"install_progress_info": [100000000.0,0.0,0.0],
+				"download_progress_info": [100000000.0,0.0,0.0],
+				"install_progress_speed": 1000000.0
+			}
+		}
+	},
+	"dede" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_dede.10/mac/bnet_dede-mac-3E10602151436DEAEE91D3C2704EE4D6.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_dede.10/win/bnet_dede-win-DD049E0073D4F2BE4F30DB3A637B372C.torrent"
+			}
+		}
+	},
+	"engb" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_engb.10/mac/bnet_engb-mac-800650FB51EA63B1B41058B825CC1379.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_engb.10/win/bnet_engb-win-862A97AAB8BF4544D2448BC1CBA1DEB1.torrent"
+			}
+		}
+	},
+	"enus" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_enus.10/mac/bnet_enus-mac-632CC59BE99DC8510610C8C3ED8D6052.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_enus.10/win/bnet_enus-win-7D8FAFE0CAE86100A3CEF377349F9AF0.torrent"
+			}
+		}
+	},
+	"eses" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_eses.10/mac/bnet_eses-mac-1F43EA271F9B0606337FD70E39B3D6D7.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_eses.10/win/bnet_eses-win-D0AC2113D16DCC460F3E35CCCC70ED47.torrent"
+			}
+		}
+	},
+	"esmx" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_esmx.10/mac/bnet_esmx-mac-01C61DDFFEAEEB7F13DE3153A8F088E9.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_esmx.10/win/bnet_esmx-win-A31B31C4271DF7ED77CE268812D45FF7.torrent"
+			}
+		}
+	},
+	"frfr" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_frfr.10/mac/bnet_frfr-mac-9721C71B98E3A2E02A088C92BD403480.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_frfr.10/win/bnet_frfr-win-86C25FE9B3233CC9A082F25022A89B7A.torrent"
+			}
+		}
+	},
+	"itit" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_itit.10/mac/bnet_itit-mac-38908C1FD3D308F274B5510E47858AB1.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_itit.10/win/bnet_itit-win-9C0911F146B6AB935E6589118EB83E3D.torrent"
+			}
+		}
+	},
+	"kokr" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_kokr.10/mac/bnet_kokr-mac-0239212D1B13BA71371EF16C2433BCB3.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_kokr.10/win/bnet_kokr-win-444641157C335717C7ED132075385F52.torrent"
+			}
+		}
+	},
+	"plpl" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_plpl.10/mac/bnet_plpl-mac-3FC1CC11D5DB1DBBA0D3CF3CA1395462.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_plpl.10/win/bnet_plpl-win-FF0F67E909C480EA570BF92246E045D8.torrent"
+			}
+		}
+	},
+	"ptbr" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ptbr.10/mac/bnet_ptbr-mac-41C945E11CF24B8AF1F2232E1AE2E95A.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ptbr.10/win/bnet_ptbr-win-A7DE3E2AD8BBE0AAC0FE70E07679C950.torrent"
+			}
+		}
+	},
+	"ptpt" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ptpt.10/mac/bnet_ptpt-mac-A0F6755C847EE6A27B2158195D6DD9B7.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ptpt.10/win/bnet_ptpt-win-019C4B82CD7868EFCB26CBECD2A50B2C.torrent"
+			}
+		}
+	},
+	"ruru" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ruru.10/mac/bnet_ruru-mac-5A62013AFA7DCAD519E7FE34851589A5.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_ruru.10/win/bnet_ruru-win-9AC5D59C9373DB6EE134BB0A6900C10C.torrent"
+			}
+		}
+	},
+	"zhcn" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_zhcn.10/mac/bnet_zhcn-mac-C380B51ADC8CF49DA68E39E5B3A72168.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_zhcn.10/win/bnet_zhcn-win-27AA10E2D0CE3A2793BBEA572413FA1B.torrent"
+			}
+		}
+	},
+	"zhtw" : {
+		"mac" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_zhtw.10/mac/bnet_zhtw-mac-2CC6BB4C4082F7CFA433E542A913D618.torrent"
+			}
+		},
+		"win" : {
+			"config" : {
+				"tome_torrent" : "http://dist.blizzard.com.edgesuite.net/tools-pod/Battle.net/1E5D3C6D157/install/bnet_zhtw.10/win/bnet_zhtw-win-D25FAC49FE0D325FD9162BBCC5D9391C.torrent"
+			}
+		}
+	}
+}

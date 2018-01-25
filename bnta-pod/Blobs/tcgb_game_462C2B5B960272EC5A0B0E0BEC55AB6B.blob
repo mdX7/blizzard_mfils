@@ -1,0 +1,293 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "TCG",
+			"install_progress_percent" : 10.0,
+			"universal_patch_id" : -1.0,
+			"updater_product" : "tcg_patch",
+			"expansion_level" : 1.0,
+			"ptr" : false,
+			"beta" : false,
+			"update_method" : "manual update",
+			"supports_multibox" : false,
+			"supports_offline" : true,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : false,
+			"data_dir" : "",
+			"torrent_file_path" : "Pegasus.tfil",
+			"manifest_file_path" : "Pegasus.mfil",
+			"priority_file_path" : "Pegasus.pfil",
+			"priority_file_layout" : "Retail",
+			"supported_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","zhCN","plPL"],
+			"fullpath_hash" : false,
+			"opaque_product_specific" : {},
+			"register_game_info" : {
+				"valid_uids" : ["tcg_beta_enus","tcg_beta_esmx","tcg_beta_ptbr","tcg_beta_dede","tcg_beta_engb","tcg_beta_eses","tcg_beta_ptpt","tcg_beta_frfr","tcg_beta_itit","tcg_beta_ruru","tcg_beta_kokr","tcg_beta_zhtw","tcg_beta_zhcn","tcg_beta_plpl"],
+				"uid_format_string" : "tcg_beta_%s",
+				"region_hint_table" : {
+					"NA" : ["enUS","esMX","ptBR"],
+					"EU" : ["deDE","enGB","esES","ptPT","frFR","itIT","ruRU","plPL"],
+					"KR" : ["koKR"],
+					"TW" : ["zhTW","enTW"],
+					"CN" : ["zhCN","enCN"]
+				},
+				"language_hint_table" : {
+					"en" : ["enUS","enGB"],
+					"es" : ["esES","esMX"],
+					"pt" : ["ptBR","ptPT"],
+					"zh" : ["zhCN","zhTW"]
+				},
+				"locale_regex" : "Strings/(?P<locale_name>[a-zA-Z]{4})/GAMEPLAY.txt$",
+				"registry_info" : {
+					"key" : "Battle.net Test App Beta",
+					"value" : "InstallPath",
+					"flags" : 4.0
+				},
+				"folder_name" : "Battle.net Test App Beta"
+			}
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [680000000.0,0.0,0.0],
+				"download_progress_info" : [0.0,0.0,0.0],
+				"install_progress_speed" : 1000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [680000000.0,0.0,0.0],
+				"download_progress_info" : [0.0,0.0,0.0],
+				"install_progress_speed" : 1000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [680000000.0,0.0,0.0],
+				"download_progress_info" : [0.0,0.0,0.0],
+				"install_progress_speed" : 1000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"binary_version_path" : "Pegasus.exe",
+				"binary_launch_path" : "Pegasus.exe",
+				"register_game_info" : {
+					"search_dirs" : ["%PROGRAM_FILES%/Battle.net Test App Beta","c:/Games/Battle.net Test App Beta"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%commonstartmenu%",
+							"relative_path" : "Battle.net Test App Beta"
+						}
+					},{
+						"delete_file" : {
+							"root" : "%commondesktop%",
+							"relative_path" : "Battle.net Test App Beta.lnk"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Pegasus.app",
+				"binary_launch_path" : "Pegasus.app",
+				"register_game_info" : {
+					"search_dirs" : ["/Applications/Battle.net Test App Beta"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		}
+	},
+	"tcg_beta_enus" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_enus"]
+		}
+	},
+	"enus" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_esmx" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_esmx"]
+		}
+	},
+	"esmx" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_ptbr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_ptbr"]
+		}
+	},
+	"ptbr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_ensg" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_ensg"]
+		}
+	},
+	"ensg" : {
+		"config" : {
+			"display_locales" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_dede" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_dede"]
+		}
+	},
+	"dede" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_frfr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_frfr"]
+		}
+	},
+	"frfr" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_itit" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_itit"]
+		}
+	},
+	"itit" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_plpl" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_plpl"]
+		}
+	},
+	"plpl" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_engb" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_engb"]
+		}
+	},
+	"engb" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_ruru" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_ruru"]
+		}
+	},
+	"ruru" : {
+		"config" : {
+			"display_locales" : ["ruRU"]
+		}
+	},
+	"tcg_beta_eses" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_eses"]
+		}
+	},
+	"eses" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_ptpt" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_ptpt"]
+		}
+	},
+	"ptpt" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_kokr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["koKR"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_kokr"]
+		}
+	},
+	"kokr" : {
+		"config" : {
+			"display_locales" : ["koKR"]
+		}
+	},
+	"tcg_beta_zhtw" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_zhtw"]
+		}
+	},
+	"zhtw" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"tcg_beta_zhcn" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["zhCN"],
+			"launch_arguments" : ["-launch","-uid","tcg_beta_zhcn"]
+		}
+	},
+	"zhcn" : {
+		"config" : {
+			"display_locales" : ["zhCN"]
+		}
+	}
+}

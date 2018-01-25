@@ -1,0 +1,651 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "WoWT",
+			"install_progress_percent" : 70.0,
+			"updater_product" : "wow_patch",
+			"expansion_level" : 4.0,
+			"ptr" : true,
+			"beta" : false,
+			"update_method" : "patch on demand",
+			"supports_multibox" : true,
+			"supports_offline" : false,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : true,
+			"data_dir" : "Data/",
+			"base_update_files_dir" : "",
+			"update_regex" : "(?P<prefix>wow-update-(?P<dataset>\\w+))-(?P<build>\\d+)\\.mpq$",
+			"update_identifier" : "wow-update-",
+			"torrent_file_path" : "WoW.tfil",
+			"manifest_file_path" : "WoW.mfil",
+			"priority_file_path" : "WoW.pfil",
+			"priority_file_layout" : "Ptr",
+			"supported_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN","enSG","plPL","trTR"],
+			"fullpath_hash" : false,
+			"opaque_product_specific" : {},
+			"register_game_info" : {
+				"valid_uids" : ["wow_ptr_enus","wow_ptr_esmx","wow_ptr_ptbr","wow_ptr_dede","wow_ptr_engb","wow_ptr_eses","wow_ptr_ptpt","wow_ptr_frfr","wow_ptr_itit","wow_ptr_ruru","wow_ptr_kokr","wow_ptr_zhtw","wow_ptr_zhcn","wow_ptr_entw","wow_ptr_encn"],
+				"uid_format_string" : "wow_ptr_%s",
+				"region_hint_table" : {
+					"NA" : ["enUS","esMX","ptBR"],
+					"EU" : ["deDE","enGB","esES","ptPT","frFR","itIT","ruRU"],
+					"KR" : ["koKR"],
+					"TW" : ["zhTW","enTW"],
+					"CN" : ["zhCN","enCN"]
+				},
+				"language_hint_table" : {
+					"en" : ["enUS","enGB","enTW","enCN"],
+					"es" : ["esES","esMX"],
+					"pt" : ["ptBR","ptPT"],
+					"zh" : ["zhCN","zhTW"]
+				},
+				"locale_regex" : "Data/(?:[a-zA-Z]{4})/locale-(?P<locale_name>[a-zA-Z]{4})\\.mpq$",
+				"registry_info" : {
+					"key" : "World of Warcraft\\PTR",
+					"value" : "InstallPath",
+					"flags" : 4.0
+				},
+				"folder_name" : "World of Warcraft Public Test"
+			}
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [15000000000.0,0.0,0.0],
+				"download_progress_info" : [200000000.0,1000000000.0,5000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [300000000.0,7000000000.0,6000000000.0],
+				"install_progress_speed" : 3500000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [300000000.0,7000000000.0,6000000000.0],
+				"install_progress_speed" : 3500000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"shortcut_target_path" : "World of Warcraft Launcher.exe",
+				"binary_version_path" : "WoW.exe",
+				"binary_launch_path" : "WoW.exe",
+				"binary_launch_path64" : "WoW-64.exe",
+				"register_game_info" : {
+					"search_dirs" : ["%PROGRAM_FILES%/World of Warcraft Public Test","c:/Games/World of Warcraft Public Test"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%commonstartmenu%",
+							"relative_path" : "World of Warcraft Public Test"
+						}
+					},{
+						"delete_file" : {
+							"root" : "%commondesktop%",
+							"relative_path" : "World of Warcraft Public Test.lnk"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Blizzard Entertainment",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%",
+							"exclusion" : ["Screenshots"]
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"shortcut_target_path" : "World of Warcraft Launcher.app",
+				"binary_version_path" : "World of Warcraft.app",
+				"binary_launch_path" : "World of Warcraft.app",
+				"binary_launch_path64" : "World of Warcraft-64.app",
+				"register_game_info" : {
+					"search_dirs" : ["/Applications/World of Warcraft Public Test"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%",
+							"exclusion" : ["Screenshots"]
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_enus" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_enus"]
+		}
+	},
+	"enus" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_esmx" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_esmx"]
+		}
+	},
+	"esmx" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_ptbr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_ptbr"]
+		}
+	},
+	"ptbr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_ensg" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_ensg"]
+		}
+	},
+	"ensg" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_dede" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_dede"]
+		}
+	},
+	"dede" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_frfr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_frfr"]
+		}
+	},
+	"frfr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_itit" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_itit"]
+		}
+	},
+	"itit" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_plpl" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_plpl"]
+		}
+	},
+	"plpl" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_engb" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_engb"]
+		}
+	},
+	"engb" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_ruru" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_ruru"]
+		}
+	},
+	"ruru" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_eses" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_eses"]
+		}
+	},
+	"eses" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_trtr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_trtr"]
+		}
+	},
+	"trtr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "<regkey_locale_list_0>"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_ptpt" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_ptpt"]
+		}
+	},
+	"ptpt" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "World of Warcraft"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_kokr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_kokr"]
+		}
+	},
+	"kokr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "월드 오브 워크래프트"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "월드 오브 워크래프트"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_zhtw" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_zhtw"]
+		}
+	},
+	"zhtw" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔獸世界"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔獸世界"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_entw" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_entw"]
+		}
+	},
+	"entw" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔獸世界"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔獸世界"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_zhcn" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_zhcn"],
+			"alternate" : true
+		}
+	},
+	"zhcn" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔兽世界"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔兽世界"
+						}
+					}]
+			}
+		}
+	},
+	"wow_ptr_encn" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"],
+			"launch_arguments" : ["-launch","-uid","wow_ptr_encn"],
+			"alternate" : true
+		}
+	},
+	"encn" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔兽世界"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "魔兽世界"
+						}
+					}]
+			}
+		}
+	}
+}

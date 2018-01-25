@@ -1,0 +1,75 @@
+{
+	"all" : {
+		"config" : {
+			"form" : {
+				"eula" : {
+					"eula" : false
+				},
+				"game_dir" : {
+					"dirname" : "Hearthstone"
+				}
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Program Files",
+						"required_space" : 1153893152.0
+					}
+				}
+			}
+		},
+		"mac" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Applications",
+						"required_space" : 1153893152.0
+					}
+				}
+			}
+		},
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/hs-pod/hs-authenticationcode-enUS.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS"]
+					}
+				}
+			}
+		}
+	}
+}

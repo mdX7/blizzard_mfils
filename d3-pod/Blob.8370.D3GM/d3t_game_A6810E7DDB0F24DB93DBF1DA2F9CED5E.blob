@@ -1,0 +1,267 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "D3T",
+			"universal_patch_id" : -1.0,
+			"updater_product" : "d3_patch",
+			"expansion_level" : 1.0,
+			"ptr" : true,
+			"beta" : false,
+			"update_method" : "patch on demand",
+			"supports_multibox" : false,
+			"supports_offline" : true,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : false,
+			"data_dir" : "Data_D3/PC/MPQs/",
+			"update_regex" : "(?P<prefix>d3-update-(?P<dataset>\\w+))-(?P<build>\\d+)\\.mpq$",
+			"update_identifier" : "d3-update-",
+			"torrent_file_path" : "Diablo III.tfil",
+			"manifest_file_path" : "Diablo III.mfil",
+			"priority_file_path" : "Diablo III.pfil",
+			"priority_file_layout" : "Ptr",
+			"supported_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"fullpath_hash" : false,
+			"opaque_product_specific" : {},
+			"register_game_info" : {
+				"valid_uids" : ["diablo3_ptr_enus","diablo3_ptr_dede","diablo3_ptr_engb","diablo3_ptr_frfr","diablo3_ptr_kokr"],
+				"uid_format_string" : "diablo3_ptr_%s",
+				"region_hint_table" : {
+					"US" : ["enUS","esMX","ptBR"],
+					"EU" : ["deDE","enGB","esES","ptPT","frFR","itIT","ruRU","plPL"],
+					"KR" : ["koKR"],
+					"TW" : ["zhTW"],
+					"CN" : ["zhCN"]
+				},
+				"language_hint_table" : {
+					"en" : ["enUS","enGB","enSG"],
+					"es" : ["esES","esMX"],
+					"pt" : ["ptBR","ptPT"],
+					"zh" : ["zhCN","zhTW"]
+				},
+				"locale_regex" : "(?P<relative_path>Data_D3/PC/MPQs/(?P<locale_name>[a-zA-Z]{4})_Text\\.mpq)$",
+				"registry_info" : {
+					"key" : "Diablo III Public Test",
+					"value" : "InstallPath",
+					"flags" : 4.0
+				},
+				"folder_name" : "Diablo III Public Test"
+			}
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [8000000000.0,0.0,0.0],
+				"download_progress_info" : [10000000.0,500000000.0,500000000.0],
+				"install_progress_speed" : 5000000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [3000000000.0,5000000000.0,6000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [3000000000.0,5000000000.0,6000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"binary_version_path" : "Diablo III.exe",
+				"binary_launch_path" : "Diablo III.exe",
+				"register_game_info" : {
+					"search_dirs" : ["%PROGRAM_FILES%/Diablo III Public Test","c:/Games/Diablo III Public Test"]
+				},
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Blizzard Entertainment",
+							"subkey" : "Diablo III Public Test"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths" : ["Bnet","Data_D3","InspectorReporter","Logs","Updates","Versions"]
+						}
+					},{
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths" : ["Diablo III.mfil","Diablo III.tfil","D3Debug.txt",".agent.db","Launcher.db","SetupWin.mpq","Diablo III.exe","Diablo III Launcher.exe","Diablo III Public Test Launcher.exe","BattlenetAccount.url","fmodex.dll","icudt49.dll","icuin49.dll","icuuc49.dll","ijl15.dll","Manual.url","msvcp90.dll","msvcr90.dll","msvcp100.dll","msvcr100.dll","TechSupport.url"]
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Diablo III.app",
+				"binary_launch_path" : "Diablo III.app",
+				"register_game_info" : {
+					"search_dirs" : ["/Applications/Diablo III Public Test"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths" : ["Bnet","Data_D3","InspectorReporter","Logs","Updates","Versions","Diablo III.app","Diablo III Public Test Launcher.app","Diablo III Launcher.app"]
+						}
+					},{
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths" : ["Diablo III.mfil","Diablo III.tfil","D3Debug.txt",".agent.db","Launcher.db","SetupOSX.mpq","Manual.url","BattlenetAccount.url","TechSupport.url"]
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_ptr_enus" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"launch_arguments" : ["OnlineService.PTR=true","-launch","-uid","diablo3_ptr_enus"]
+		}
+	},
+	"enus" : {
+		"config" : {
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_ptr_kokr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"launch_arguments" : ["OnlineService.PTR=true","-launch","-uid","diablo3_ptr_kokr"]
+		}
+	},
+	"kokr" : {
+		"config" : {
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "디아블로 III 공개 테스트"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "디아블로 III 공개 테스트"
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_ptr_engb" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"launch_arguments" : ["OnlineService.PTR=true","-launch","-uid","diablo3_ptr_engb"]
+		}
+	},
+	"engb" : {
+		"config" : {
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_ptr_frfr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"launch_arguments" : ["OnlineService.PTR=true","-launch","-uid","diablo3_ptr_frfr"]
+		}
+	},
+	"frfr" : {
+		"config" : {
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_ptr_dede" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"],
+			"launch_arguments" : ["OnlineService.PTR=true","-launch","-uid","diablo3_ptr_dede"]
+		}
+	},
+	"dede" : {
+		"config" : {
+			"display_locales" : ["enUS","koKR","enGB","frFR","deDE"]
+		},
+		"win" : {
+			"config" : {
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Diablo III Public Test"
+						}
+					}]
+			}
+		}
+	}
+}

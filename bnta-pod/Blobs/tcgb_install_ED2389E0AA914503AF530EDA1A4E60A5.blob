@@ -1,0 +1,696 @@
+{
+	"all" : {
+		"config" : {
+			"form" : {
+				"eula" : {
+					"eula" : false
+				},
+				"game_dir" : {
+					"dirname" : "Battle.net Test App Beta"
+				}
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Program Files",
+						"required_space" : 340908420.0
+					}
+				}
+			}
+		},
+		"mac" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Applications",
+						"required_space" : 340908420.0
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_enus" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enUS.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enUS.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_esmx" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-esMX.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-esMX.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_ptbr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ptBR.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ptBR.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_ensg" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enSG"],
+						"list" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enSG"],
+						"list" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enSG.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enSG"],
+						"list" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enSG.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_dede" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-deDE.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-deDE.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_frfr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-frFR.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-frFR.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_itit" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-itIT.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-itIT.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_plpl" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["plPL"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["plPL"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-plPL.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["plPL"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-plPL.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_engb" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enGB.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-enGB.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_ruru" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ruRU.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ruRU.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_eses" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-esES.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-esES.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_ptpt" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ptPT.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-ptPT.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_kokr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-koKR.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-koKR.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_zhtw" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-zhTW.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-zhTW.txt"]
+					}
+				}
+			}
+		}
+	},
+	"tcg_beta_zhcn" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN"]
+					}
+				}
+			}
+		},
+		"encrypted" : {
+			"config" : {
+				"form" : {
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-zhCN.txt"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN"]
+					},
+					"authentication_key" : {
+						"url" : ["http://dist.blizzard.com.edgesuite.net/bnta-pod/tcg-authenticationcode-zhCN.txt"]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"all" : {
+		"config" : {
+			"beta" : true,
+			"supports_offline" : true,
+			"supports_multibox" : true,
+			"switcher" : true,
+			"product" : "BnaB",
+			"update_method" : "client update",
+			"side_by_side_patching": true,
+			"universal_patch_id" : 0,
+			"patch_url_beta" : "http://public-test.patch.battle.net:1119/patch"
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"shortcut_target_path" : "Battle.net.exe",
+				"binary_version_path" : "Battle.net.exe",
+				"binary_launch_path" : "Battle.net.exe",
+				"uninstall" : [{
+					"delete_folder" : {
+						"root" : "%commonstartmenu%",
+						"relative_path" : "Battle.net"
+						}
+					},{
+						"delete_file" : {
+							"root" : "%commondesktop%",
+							"relative_path" : "Battle.net.lnk"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Blizzard Entertainment",
+							"subkey" : "Battle.net"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}
+				]
+
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Battle.net.app",
+				"binary_launch_path" : "Battle.net.app",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}
+				]
+			}
+		}
+	}
+}

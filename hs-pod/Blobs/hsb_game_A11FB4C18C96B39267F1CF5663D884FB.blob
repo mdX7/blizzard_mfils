@@ -1,0 +1,140 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "HSB",
+			"install_progress_percent" : 10.0,
+			"universal_patch_id" : -1,
+			"updater_product" : "hs_patch",
+			"expansion_level" : 1,
+			"ptr" : false,
+			"beta" : false,
+			"update_method" : "patch on demand",
+			"update_regex" : "(?P<prefix>hs-update-(?P<dataset>\\w+))-(?P<build>\\d+)\\.mpq$",
+			"update_identifier" : "hs-update-",
+			"supports_multibox" : false,
+			"supports_offline" : true,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : false,
+			"data_dir" : "",
+			"torrent_file_path" : "Hearthstone.tfil",
+			"manifest_file_path" : "Hearthstone.mfil",
+			"priority_file_path" : "Hearthstone.pfil",
+			"priority_file_layout" : "Retail",
+			"supported_locales" : ["enUS"],
+			"fullpath_hash" : false,
+			"opaque_product_specific" : {},
+			"register_game_info" : {
+				"valid_uids" : ["hs_beta"],
+				"uid_format_string" : "hs_beta",
+				"region_hint_table" : {
+					"US" : ["enUS"],
+					"EU" : ["enUS"],
+					"KR" : ["enUS"],
+					"TW" : ["enUS"],
+					"CN" : ["enUS"]
+				},
+				"language_hint_table" : {
+					"en" : ["enUS"],
+					"es" : ["enUS"],
+					"pt" : ["enUS"],
+					"zh" : ["enUS"]
+				},
+				"locale_regex" : "Strings/(?P<locale_name>[a-zA-Z]{4})/GAMEPLAY.txt$",
+				"registry_info" : {
+					"key" : "Hearthstone",
+					"value" : "InstallPath",
+					"flags" : 4
+				},
+				"folder_name" : "Hearthstone"
+			},
+			"use_old_updater" : false
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [797116330.0,0.0,0.0],
+				"download_progress_info" : [777016970.0,0.0,0.0],
+				"install_progress_speed" : 3500000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [797116330.0,0.0,0.0],
+				"download_progress_info" : [777016970.0,0.0,0.0],
+				"install_progress_speed" : 3500000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [797116330.0,0.0,0.0],
+				"download_progress_info" : [777016970.0,0.0,0.0],
+				"install_progress_speed" : 3500000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"shortcut_target_path" : "Hearthstone Beta Launcher.exe",
+				"binary_version_path" : "Hearthstone.exe",
+				"binary_launch_path" : "Hearthstone.exe",
+				"register_game_info" : {
+					"search_dirs" : ["%PROGRAM_FILES%/Hearthstone","c:/Games/Hearthstone"]
+				},
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Hearthstone"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3.0,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Hearthstone"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths" : ["Data","Hearthstone_Data","Logs","Strings"]
+						}
+					},{
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths" : ["client.config","streaming.config","manifest-cards.csv",".agent.db","Launcher.db","Hearthstone.mfil","Hearthstone.tfil","SetupWin.mpq","Hearthstone.exe","base-Win.mpq","UnityPlayer_Symbols.pdb","battle.net.dll","msvcp100.dll","msvcr100.dll","Hearthstone Beta Launcher.exe","Hearthstone Launcher.exe"]
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"shortcut_target_path" : "Hearthstone Beta Launcher.app",
+				"binary_version_path" : "Hearthstone.app",
+				"binary_launch_path" : "Hearthstone.app",
+				"register_game_info" : {
+					"search_dirs" : ["/Applications/Hearthstone"]
+				},
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths" : ["Data","Hearthstone_Data","Logs","Strings","Hearthstone.app","Hearthstone Beta Launcher.app","Hearthstone Launcher.app"]
+						}
+					},{
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths" : ["client.config","streaming.config","manifest-cards.csv",".agent.db","Launcher.db","Hearthstone.mfil","Hearthstone.tfil","SetupOSX.mpq","base-OSX.mpq"]
+						}
+					}]
+			}
+		}
+	},
+	"win" : {
+		"config" : {
+			"on_update_events" : [{
+					"type" : "remove_files",
+					"relative_paths" : ["cards.dev.csv","cards.editor.csv","cards.predev.csv","cards.staging.csv","client.config.bak","Hearthstone_Data/level10","Hearthstone_Data/level11","Hearthstone_Data/level9","Hearthstone_Data/sharedassets10.assets","Hearthstone_Data/sharedassets11.assets","Hearthstone_Data/sharedassets12.assets","UnityPlayer_Symbols.pdb"]
+				}]
+		}
+	}
+}

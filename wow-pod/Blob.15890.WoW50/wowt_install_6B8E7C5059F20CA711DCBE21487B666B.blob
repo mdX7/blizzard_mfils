@@ -1,0 +1,496 @@
+{
+	"all" : {
+		"config" : {
+			"form" : {
+				"eula" : {
+					"eula" : false
+				},
+				"game_dir" : {
+					"dirname" : "World of Warcraft Public Test"
+				}
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Program Files",
+						"required_space" : 22000000000.0
+					}
+				}
+			}
+		},
+		"mac" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Applications",
+						"required_space" : 23000000000.0
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_enus" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_esmx" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_ptbr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_dede" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_frfr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_itit" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_engb" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_ruru" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_eses" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_ptpt" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_kokr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_zhtw" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_entw" : {
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enTW"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enTW"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_zhcn" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptr_encn" : {
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enCN"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enCN"],
+						"list" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","enTW","zhCN","enCN"]
+					}
+				}
+			}
+		}
+	}
+}

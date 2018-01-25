@@ -1,0 +1,534 @@
+{
+	"all" : {
+		"config" : {
+			"form" : {
+				"eula" : {
+					"eula" : false
+				},
+				"game_dir" : {
+					"dirname" : "World of Warcraft"
+				}
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Program Files",
+						"required_space" : 22000000000.0
+					}
+				}
+			},
+			"migrate" : {
+				"config" : {
+					"form" : {
+						"game_dir" : {
+							"required_space" : 5000000000.0
+						}
+					}
+				}
+			}
+		},
+		"mac" : {
+			"config" : {
+				"form" : {
+					"game_dir" : {
+						"default" : "Applications",
+						"required_space" : 23000000000.0
+					}
+				}
+			},
+			"migrate" : {
+				"config" : {
+					"form" : {
+						"game_dir" : {
+							"required_space" : 5200000000.0
+						}
+					}
+				}
+			}
+		}
+	},
+	"wow_enus" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enUS"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		}
+	},
+	"wow_esmx" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esMX"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptbr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","ptBR"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptBR"],
+						"list" : ["enUS","esMX","ptBR"]
+					}
+				}
+			}
+		}
+	},
+	"wow_dede" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","deDE"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["deDE"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_frfr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","frFR"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["frFR"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_itit" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","itIT"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["itIT"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_engb" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","deDE"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enGB"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ruru" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ruRU"],
+						"list" : ["ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_eses" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","esES"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["esES"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_ptpt" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","ptPT"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["ptPT"],
+						"list" : ["enGB","frFR","deDE","esES","ptPT","itIT","ruRU"]
+					}
+				}
+			}
+		}
+	},
+	"wow_kokr" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["koKR"],
+						"list" : ["koKR"]
+					}
+				}
+			}
+		}
+	},
+	"wow_zhtw" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		}
+	},
+	"wow_entw" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enTW"],
+						"list" : ["zhTW","enTW"]
+					}
+				}
+			}
+		}
+	},
+	"wow_zhcn" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["zhCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		}
+	},
+	"wow_encn" : {
+		"disk" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"web" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"form" : {
+					"language" : {
+						"default" : ["enCN"],
+						"list" : ["zhCN","enCN"]
+					}
+				}
+			}
+		}
+	}
+}

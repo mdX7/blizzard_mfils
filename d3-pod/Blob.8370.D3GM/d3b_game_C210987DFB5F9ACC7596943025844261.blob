@@ -1,0 +1,265 @@
+{
+	"all" : {
+		"config" : {
+			"product" : "D3B",
+			"install_progress_percent" : 10.0,
+			"universal_patch_id" : -1.0,
+			"updater_product" : "d3_patch",
+			"expansion_level" : 1.0,
+			"ptr" : false,
+			"beta" : true,
+			"update_method" : "patch on demand",
+			"supports_multibox" : false,
+			"supports_offline" : true,
+			"perform_ogg_to_wav" : false,
+			"use_sparse" : false,
+			"data_dir" : "Data_D3/PC/MPQs/",
+			"update_regex" : "(?P<prefix>d3-update-(?P<dataset>\\w+))-(?P<build>\\d+)\\.mpq$",
+			"update_identifier" : "d3-update-",
+			"torrent_file_path" : "Diablo III.tfil",
+			"manifest_file_path" : "Diablo III.mfil",
+			"priority_file_path" : "Diablo III.pfil",
+			"priority_file_layout" : "Beta",
+			"supported_locales" : ["enUS","esMX","ptBR","enGB","frFR","deDE","esES","ptPT","itIT","ruRU","koKR","zhTW","zhCN","enSG","plPL"],
+			"fullpath_hash" : false,
+			"opaque_product_specific" : {}
+		}
+	},
+	"media" : {
+		"disk" : {
+			"config" : {
+				"install_progress_info" : [8000000000.0,0.0,0.0],
+				"download_progress_info" : [10000000.0,500000000.0,500000000.0],
+				"install_progress_speed" : 5000000.0
+			}
+		},
+		"web" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [3000000000.0,5000000000.0,6000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		},
+		"torrent" : {
+			"config" : {
+				"install_progress_info" : [60000000.0,0.0,0.0],
+				"download_progress_info" : [3000000000.0,5000000000.0,6000000000.0],
+				"install_progress_speed" : 1000000.0
+			}
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"binary_version_path" : "Diablo III.exe",
+				"binary_launch_path" : "Diablo III.exe",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%commonstartmenu%",
+							"relative_path" : "Diablo III"
+						}
+					},{
+						"delete_file" : {
+							"root" : "%commondesktop%",
+							"relative_path" : "Diablo III.lnk"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Diablo III.app",
+				"binary_launch_path" : "Diablo III.app",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%"
+						}
+					}]
+			}
+		}
+	},
+	"diablo3_beta_enus" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_enus"]
+		}
+	},
+	"enus" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_esmx" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_esmx"]
+		}
+	},
+	"esmx" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_ptbr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_ptbr"]
+		}
+	},
+	"ptbr" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_ensg" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_ensg"]
+		}
+	},
+	"ensg" : {
+		"config" : {
+			"display_locales" : ["enSG","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_dede" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_dede"]
+		}
+	},
+	"dede" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_frfr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_frfr"]
+		}
+	},
+	"frfr" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_itit" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_itit"]
+		}
+	},
+	"itit" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_plpl" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_plpl"]
+		}
+	},
+	"plpl" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_engb" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_engb"]
+		}
+	},
+	"engb" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_ruru" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_ruru"]
+		}
+	},
+	"ruru" : {
+		"config" : {
+			"display_locales" : ["ruRU"]
+		}
+	},
+	"diablo3_beta_eses" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_eses"]
+		}
+	},
+	"eses" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_ptpt" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_ptpt"]
+		}
+	},
+	"ptpt" : {
+		"config" : {
+			"display_locales" : ["enGB","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_kokr" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["koKR"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_kokr"]
+		}
+	},
+	"kokr" : {
+		"config" : {
+			"display_locales" : ["koKR"]
+		}
+	},
+	"diablo3_beta_zhtw" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_zhtw"]
+		}
+	},
+	"zhtw" : {
+		"config" : {
+			"display_locales" : ["enUS","esMX","ptBR","koKR","zhTW","deDE","esES","frFR","itIT","plPL","ruRU"]
+		}
+	},
+	"diablo3_beta_zhcn" : {
+		"config" : {
+			"patch_url" : "http://public-test.patch.battle.net:1119/patch",
+			"display_locales" : ["zhCN"],
+			"launch_arguments" : ["-launch","-uid","diablo3_beta_zhcn"]
+		}
+	},
+	"zhcn" : {
+		"config" : {
+			"display_locales" : ["zhCN"]
+		}
+	}
+}

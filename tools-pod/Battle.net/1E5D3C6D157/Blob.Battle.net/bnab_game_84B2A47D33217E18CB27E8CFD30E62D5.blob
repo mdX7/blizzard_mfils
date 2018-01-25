@@ -1,0 +1,101 @@
+{
+	"all" : {
+		"config" : {
+			"beta" : true,
+			"supports_offline" : true,
+			"supports_multibox" : true,
+			"switcher" : true,
+			"product" : "BnaB",
+			"update_method" : "client update",
+			"side_by_side_patching": true,
+			"universal_patch_id" : 0,
+			"patch_url_beta" : "http://public-test.patch.battle.net:1119/patch"
+		}
+	},
+	"platform" : {
+		"win" : {
+			"config" : {
+				"shortcut_target_path" : "Battle.net.exe",
+				"binary_version_path" : "Battle.net.exe",
+				"binary_launch_path" : "Battle.net.exe",
+				"uninstall" : [{
+						"delete_registry_key" : {
+							"key_type" : 2.0,
+							"root" : "SOFTWARE\\Blizzard Entertainment",
+							"subkey" : "Battle.net"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3,
+							"root" : "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Battle.net"
+						}
+					},{
+						"delete_registry_key" : {
+							"key_type" : 3,
+							"root" : "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+							"subkey" : "Battle.net"
+						}
+					},{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths": [
+								"Battle.net.*",
+								"Logs"
+							]
+						}
+					},{
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths": [
+								"Battle.net Launcher.exe",
+								"Battle.net.exe",
+								"BlizzardError.exe",
+								"SetupWin.mpq",
+								"SystemSurvey.exe",
+								".agent.db"
+							]
+						}
+					}
+				]
+
+			}
+		},
+		"mac" : {
+			"config" : {
+				"binary_version_path" : "Battle.net.app",
+				"binary_launch_path" : "Battle.net.app",
+				"uninstall" : [{
+						"delete_folder" : {
+							"root" : "%game%",
+							"relative_paths": [
+								"Battle.net.*",
+								"Logs",
+								"MacOS",
+								"Resources",
+								"Blizzard Error.app",
+								"Battle.net Launcher.app",
+								"_CodeSignature"
+							]
+						}
+					},{	
+						"delete_file" : {
+							"root" : "%game%",
+							"relative_paths": [
+								"info.plist",
+								"SetupOSX.mpq",
+								"SystemSurvey",
+								".agent.db"
+							]
+						}
+					},{
+						"delete_file" : {
+						"root" : "%userlibrarypreferences%",
+						"relative_path" : "net.battle.plist"
+						}
+					}
+				]
+			}
+		}
+	}
+}
